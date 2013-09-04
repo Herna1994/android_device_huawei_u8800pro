@@ -1,0 +1,41 @@
+From 7425f56c93e9259994101d996e4a6cd1bbc724f6 Mon Sep 17 00:00:00 2001
+From: ivan198 <ivan198@gmail.com>
+Date: Fri, 12 Jul 2013 01:05:29 +0800
+Subject: [PATCH] Add support for huawei devices
+
+Change-Id: I8a7d94af5b94af15e6f1ba8c4c219ad12f023b68
+---
+ camera/CameraParameters.cpp       |    3 ++-
+ include/camera/CameraParameters.h |    2 ++
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/camera/CameraParameters.cpp b/camera/CameraParameters.cpp
+index 028d20f..bcd82cd 100644
+--- a/camera/CameraParameters.cpp
++++ b/camera/CameraParameters.cpp
+@@ -485,7 +485,8 @@ const char CameraParameters::SCENE_MODE_FALL[] = "fall-color";
+ const char CameraParameters::SCENE_MODE_FALL_COLOR[] = "fall-color";
+ const char CameraParameters::SCENE_MODE_TEXT[] = "text";
+ #endif
+-
++// add for huawei
++const char CameraParameters::SCENE_MODE_OFF[] = "off";
+ static const char* portrait = "portrait";
+ static const char* landscape = "landscape";
+ 
+diff --git a/include/camera/CameraParameters.h b/include/camera/CameraParameters.h
+index d249279..9cd363d 100644
+--- a/include/camera/CameraParameters.h
++++ b/include/camera/CameraParameters.h
+@@ -804,6 +804,8 @@ public:
+     static const char SCENE_MODE_BACKLIGHT[];
+     static const char SCENE_MODE_FLOWERS[];
+     static const char SCENE_MODE_AR[];
++// add for huawei
++    static const char SCENE_MODE_OFF[];
+ #endif
+     // Applications are looking for a barcode. Camera driver will be optimized
+     // for barcode reading.
+-- 
+1.7.9.5
+
