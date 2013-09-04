@@ -1,7 +1,7 @@
-android_device_huawei_u8800pro
+android_device_u8800pro
 ==============================
 
-CM10.1 for huawei U8800PRO
+CM10.2 for huawei U8800PRO
 
 ==============================
 Working:
@@ -24,3 +24,5 @@ Camera
 Not Working:
 
 Bluetooth(Turn on is ok ,but some bugs)
+
+Made by Ivan and Herna
