@@ -10,6 +10,10 @@ $(call inherit-product, vendor/illusion/config/common_mini_phone.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/illusion/config/gsm.mk)
 
+# Hybrid
+PRODUCT_COPY_FILES +=  \
+vendor/illusion/prebuilt/hybrid_hdpi.conf:system/etc/beerbong/properties.conf
+
 # Setup device configuration
 
 PRODUCT_NAME := illusion_u8800pro
