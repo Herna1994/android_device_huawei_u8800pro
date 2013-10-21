@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8800pro/prebuilt/bcm4329.ko:system/lib/modules/bcm4329.ko
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := pac_u8800pro
+PRODUCT_NAME := illusion_u8800pro
 PRODUCT_DEVICE := u8800pro
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := Huawei
