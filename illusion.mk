@@ -5,7 +5,7 @@ TARGET_BOOTANIMATION_NAME := vertical-480x800
 $(call inherit-product, device/huawei/u8800pro/u8800pro.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/illusion/config/common_mini_phone.mk)
+$(call inherit-product, vendor/illusion/config/common.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/illusion/config/gsm.mk)
