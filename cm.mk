@@ -5,18 +5,14 @@ TARGET_BOOTANIMATION_NAME := vertical-480x800
 $(call inherit-product, device/huawei/u8800pro/u8800pro.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/illusion/config/common.mk)
+$(call inherit-product, vendor/cm/config/common.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/illusion/config/gsm.mk)
-
-# Hybrid
-PRODUCT_COPY_FILES +=  \
-vendor/illusion/prebuilt/hybrid_hdpi.conf:system/etc/beerbong/properties.conf
+$(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Setup device configuration
 
-PRODUCT_NAME := illusion_u8800pro
+PRODUCT_NAME := cm_u8800pro
 PRODUCT_DEVICE := u8800pro
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := U8800Pro
