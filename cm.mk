@@ -1,6 +1,6 @@
 # Correct bootanimation size for the screen
-TARGET_BOOTANIMATION_NAME := vertical-480x800
-
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
 # Inherit device configuration
 $(call inherit-product, device/huawei/u8800pro/u8800pro.mk)
 
