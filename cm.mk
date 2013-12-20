@@ -7,8 +7,8 @@ $(call inherit-product, device/huawei/u8800pro/u8800pro.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/gsm.mk)
+PRODUCT_COPY_FILES += \
+vendor/cm/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Setup device configuration
 
