@@ -22,6 +22,6 @@ PRODUCT_RELEASE_NAME := U8800PRO
 #Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=u8800pro \
-	BUILD_FINGERPRINT=huawei/u8800pro:4.2.1/IMM76L/223133:userdebug/test-keys \
-	PRIVATE_BUILD_DESC="huawei-user 4.2.1 IMM76L 223133 test-keys" \
-	BUILD_NUMBER=JDQ39E
+	BUILD_FINGERPRINT=huawei/u8800pro:4.4.2/KOT49H/f9268bee07:userdebug/test-keys \
+	PRIVATE_BUILD_DESC="huawei-user 4.4.2 KOT49H f9268bee07 test-keys" \
+	BUILD_NUMBER=KOT49H

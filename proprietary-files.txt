@@ -65,7 +65,7 @@ lib/libmmipl.so
 lib/libmmjpeg.so
 lib/libmvs.so
 lib/libnetmgr.so
-lib/libnv.so
+-lib/libnv.so
 lib/liboemcamera.so
 lib/liboeminfo.so
 lib/liboeminfodata.so
@@ -84,7 +84,7 @@ lib/libOmxQcelp13Dec.so
 lib/libOmxQcelp13Enc.so
 lib/libOmxQcelpHwDec.so
 lib/libOmxWmaDec.so
-lib/liboncrpc.so
+-lib/liboncrpc.so
 lib/libpbmlib.so
 lib/libqdi.so
 lib/libqdp.so

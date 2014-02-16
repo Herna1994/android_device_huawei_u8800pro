@@ -13,8 +13,8 @@ BOARD_RIL_CLASS := ../../../device/huawei/u8800pro/RIL/
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/huawei/u8800pro/bluetooth
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/huawei/honor
-TARGET_KERNEL_CONFIG := jellytime_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/u8800pro
+TARGET_KERNEL_CONFIG := u8800pro_defconfig
 
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 0x00A00000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00A00000

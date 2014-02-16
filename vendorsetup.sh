@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo cm_u8800pro-userdebug
+sh device/huawei/msm7x30-common/patches/apply.sh
